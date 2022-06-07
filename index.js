@@ -27,7 +27,16 @@ app.use(express.static(__dirname + '/public'));
 const usuarioRoutes = require('./routes/usuarioRoutes')
 app.use('/usuario',usuarioRoutes)
 
-// rota inicial
+// rota vacinometro
+app.get('/vacinometro',(req,res)=>{
+  res.sendFile(__dirname+ "/pages/vacinometro.html")
+})
+
+app.get('/estatisticas_gerais',(req,res)=>{
+  res.sendFile(__dirname + "/pages/estatisticas_gerais.html")
+})
+
+// rota index
 app.get('/',(req,res)=>{
   // show req
   res.sendFile(__dirname + "/pages/index.html")
