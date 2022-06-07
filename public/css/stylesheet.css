@@ -1,0 +1,205 @@
+.seringa {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.embulo .seringa {
+  height: 50px;
+}
+
+.vacinometro,
+.corpo,
+.seringa-interno {
+  display: flex;
+  align-items: center;
+}
+
+.vacinometro {
+  width: 1110px;
+  height: auto;
+  padding: 20px 0px;
+  background-color: grey;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 0px auto 30px;
+}
+
+.embulo {
+  width: 10px;
+  border-radius: 5px;
+  height: 70px;
+}
+
+.agulha-1,
+.marcas-volume,
+.embulo-interno,
+.embulo {
+  background-color: #004353;
+}
+
+.cabo-embulo {
+  width: 40px;
+  height: 25px;
+}
+
+.agulha-3,
+.agulha-2,
+.agulha,
+.corpo,
+.cabo-embulo {
+  background-color: #fafafa;
+}
+
+.embulo {
+  width: 10px;
+  border-radius: 5px;
+}
+
+.embulo,
+.seringa {
+  height: 70px;
+}
+
+.agulha-1,
+.marcas-volume,
+.embulo-interno,
+.embulo {
+  background-color: grey;
+}
+
+.corpo {
+  width: 150px;
+  height: 40px;
+  border-radius: 0 15px 15px 0;
+  border: 5px solid grey;
+  border-left: 0px;
+}
+
+.vacinometro,
+.corpo,
+.seringa-interno {
+  display: flex;
+  align-items: center;
+}
+
+.agulha-3,
+.agulha-2,
+.agulha,
+.corpo,
+.cabo-embulo {
+  background-color: grey;
+}
+
+.cabo-embulo-interno {
+  background-color: #0c0a0a56;
+  width: 40%;
+  height: 25px;
+  animation: 5s infinite alternate;
+}
+
+.embulo-interno {
+  width: 6px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.agulha-1,
+.marcas-volume,
+.embulo-interno,
+.embulo {
+  background-color: grey;
+}
+
+.liquido {
+  background-color: #dade18;
+  width: 90%;
+  height: 35px;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.agulha {
+  width: 10px;
+  height: 20px;
+}
+
+.agulha-1 {
+  width: 10px;
+  height: 20px;
+}
+
+.agulha-1,
+.agulha-2,
+.agulha-1 {
+  border-radius: 0 5px 5px 0;
+}
+
+.agulha-1,
+.marcas-volume,
+.embulo-interno,
+.embulo {
+  background-color: #212529;
+}
+
+.agulha-2 {
+  width: 10px;
+  height: 10px;
+}
+
+.agulha-1,
+.agulha-2,
+.agulha-1 {
+  border-radius: 0 5px 5px 0;
+}
+
+.agulha-3,
+.agulha-2,
+.agulha,
+.corpo,
+.cabo-embulo {
+  background-color: blue;
+}
+
+.agulha-3 {
+  width: 50px;
+  height: 3px;
+}
+
+.agulha-3,
+.agulha-2,
+.agulha,
+.corpo,
+.cabo-embulo {
+  background-color: grey;
+}
+
+.navbar {
+  background-color: #484a4b !important;
+}
+.bg-dark {
+  background-color: #212529!important;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.55);
+  border-color: rgba(255,255,255,.1);
+}
+@media (min-width: 992px){
+
+  .navbar-expand-lg .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+      justify-content: space-around;
+  }
+}

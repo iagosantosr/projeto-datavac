@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <title>Projeto DataVac!</title>
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <img src="https://via.placeholder.com/1920x166" width="100%" alt="">
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#aq-vacinometro">Vacinômetro</a>
+            <a class="nav-link" href="index#no-lab-movel">Estatisticas Gerais</a>
+            <a class="nav-link" href="index#noticias">Sobre</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Notícias -->
+  <div id="noticias">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <img src="https://via.placeholder.com/340x340" alt="">
+          <p>Veja as diferenças entre a varíola monkeypox e a<br> varíola humana e como elas afetam os humanos.</p>
+          <button class="btn btn-lg" style="color: #484a4b;">
+            Veja +
+          </button>
+        </div>
+        <div class="col-md-4">
+          <img src="https://via.placeholder.com/340x340" alt="">
+          <p>Cidade de SP promove multivacinação neste <br>final de semana.</p>
+          <button class="btn btn-lg" style="color: #484a4b;">
+            Veja +
+          </button>
+        </div>
+        <div class="col-md-4">
+          <img src="https://via.placeholder.com/340x340" alt="">
+          <p>SP terá 4ª dose contra Covid-19 em profissionais <br>da saúde e pessoas com mais de 50 anos.</p>
+          <button class="btn btn-lg" style="color: #484a4b;">
+            Veja +
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--  Conteúdo Vacinômetro-->
+  <div id="sessao-seringa" class="container text-center mt-5 mb-5">
+    <div class="row" style="display: flex;align-items: center;">
+      <div class="col-md-6">
+        <h1 id="aq-vacinometro" style="margin-top:10px">Vacinômetro</h1>
+      </div>
+      <div class="col-md-6">
+        <div class="seringa mt-3" data-uw-styling-context="true">
+          <div class="seringa-interno" data-uw-styling-context="true">
+            <div class="embulo" data-uw-styling-context="true"></div>
+            <div class="cabo-embulo" data-uw-styling-context="true"></div>
+            <div class="embulo" data-uw-styling-context="true"></div>
+            <div class="corpo" data-uw-styling-context="true">
+              <div class="cabo-embulo-interno" data-uw-styling-context="true"></div>
+              <div class="embulo-interno" data-uw-styling-context="true"></div>
+              <div class="liquido" data-uw-styling-context="true">
+                <div class="marcas-volume" data-uw-styling-context="true"></div>
+                <div class="marcas-volume" data-uw-styling-context="true"></div>
+                <div class="marcas-volume" data-uw-styling-context="true"></div>
+                <div class="marcas-volume" data-uw-styling-context="true"></div>
+                <div class="marcas-volume" data-uw-styling-context="true"></div>
+              </div>
+            </div>
+            <div class="agulha" data-uw-styling-context="true"></div>
+            <div class="agulha-1" data-uw-styling-context="true"></div>
+            <div class="agulha-2" data-uw-styling-context="true"></div>
+            <div class="agulha-3" data-uw-styling-context="true"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <iframe width="1368" height="500" src="https://datastudio.google.com/embed/reporting/037e3626-d669-4522-80ce-e035ea433798/page/YQZuC" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <!-- Rodapé -->
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #212529;color: #484a4b;">
+      © 2022 Copyright
+      <p class="mt-2">Mapa do Site | Cookies | Politica de Privacidade | Termos e Condições | Sobre</p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</html>
